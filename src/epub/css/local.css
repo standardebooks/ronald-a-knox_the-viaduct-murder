@@ -134,6 +134,7 @@ footer{
 }
 
 [epub|type~="z3998:letter"] header + p{
+	margin-top: 0;
 	text-indent: 0;
 }
 
@@ -154,13 +155,8 @@ table{
 }
 
 #chapter-3 table td:first-child{
-	padding-right: .3em;
+	padding-right: .5em;
 	text-align: right;
-}
-
-#chapter-25 table{
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 #chapter-25 table td:nth-child(2){
@@ -205,5 +201,6 @@ p span.i2{
 
 #chapter-3 ul{
 	list-style: none;
+	padding-left: 0;
 }
 /* end bespoke */
