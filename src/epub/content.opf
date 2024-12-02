@@ -43,14 +43,15 @@
 		<meta property="se:subject">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A foursome of golfing friends set out to unravel the mystery surrounding a corpse found on the links.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;As the fog and rain clear one Tuesday afternoon in October, four members of a village golf club decide to fit in a match before evening sets in. One of them slices his drive off the third tee. Following his ball to the foot of the neighboring railway viaduct, he stumbles upon a body. The police soon arrive, but they seem to ignore some odd circumstances noticed by the friends, and the four decide to investigate themselves.&lt;/p&gt;
+			&lt;p&gt;Monsignor &lt;a href="https://standardebooks.org/ebooks/ronald-a-knox"&gt;Ronald Arbuthnott Knox&lt;/a&gt; was something of a polymath, who as a boy was fascinated by &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle’s&lt;/a&gt; fictional detective, &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt;. So deep was his fascination that in the pre-WWI years he wrote authoritative critical studies on Holmes and Watson. He later also promulgated a new “Ten Commandments” for detective fiction; in &lt;i&gt;The Viaduct Murder&lt;/i&gt;, the first of his own whodunits, he put his principles into practice.&lt;/p&gt;
+			&lt;p&gt;Knox was careful to lay the facts before his readers in good faith. But as one of the golfers comments early in this mystery, “Everything tells a story, if you are careful not to theorize beyond your data.” The difficulty in following this maxim leads to a challenging puzzle that holds the reader to the very end.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72585</dc:source>
 		<dc:source>https://archive.org/details/the-viaduct-murder</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Viaduct_Murder</meta>
@@ -63,14 +64,16 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Claude Monet</dc:contributor>
+		<meta property="file-as" refines="#artist">Monet, Claude</meta>
+		<meta property="se:name.person.full-name" refines="#author">Oscar-Claude Monet</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Claude_Monet</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055527</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Brian Raiter</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Raiter, Brian</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://github.com/dajare</meta>
