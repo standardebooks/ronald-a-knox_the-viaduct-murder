@@ -52,7 +52,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72585</dc:source>
 		<dc:source>https://archive.org/details/the-viaduct-murder</dc:source>
-		<meta property="se:word-count">60974</meta>
+		<meta property="se:word-count">59286</meta>
 		<meta property="se:reading-ease.flesch">71.24</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Viaduct_Murder</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ronald-a-knox_the-viaduct-murder</meta>
